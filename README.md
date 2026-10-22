@@ -34,6 +34,8 @@ idea. My AI agents read it at the start of a session and update it at the end:
 projects, decisions, infrastructure, what is left to do. It is the shared memory
 between me and the tools I work with.
 
+→ [The structure, scripts and hooks](https://github.com/Antoine-DOT/second-brain), without my own notes
+
 ## Contact
 
 [antoineleflon.com](https://antoineleflon.com) ·
