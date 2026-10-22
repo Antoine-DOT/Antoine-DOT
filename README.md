@@ -17,7 +17,8 @@ Claude Code and Codex help with day-to-day administration, under strict
 limits. A read-only agent called Observer checks the state of every machine,
 so that "it's fixed" always gets verified.
 
-→ [Write-up on my site](https://antoineleflon.com/en/projects/atl-lab)
+→ [Architecture, security model and AI agents](https://github.com/Antoine-DOT/atl-lab) ·
+[write-up on my site](https://antoineleflon.com/en/projects/atl-lab)
 
 ## Projects
 
@@ -25,6 +26,7 @@ so that "it's fixed" always gets verified.
 | --- | --- | --- |
 | **Malun** | Mandarin learning app (flashcards, TOCFL levels). Django, self-hosted in ATL-Lab, with SSO through Keycloak. The code is private. | [mandarin.antoineleflon.com](https://mandarin.antoineleflon.com) |
 | **antoineleflon.com** | My personal site. Static React, deployed to the lab through a restricted SSH account. | [source](https://github.com/Antoine-DOT/antoineleflon.com) |
+| **atl-preview-controller** | The lab's private staging platform: isolated Docker Compose deployments, health-checked before any traffic moves, deployed through forced-command SSH accounts. Python, with tests. | [source](https://github.com/Antoine-DOT/atl-preview-controller) |
 | **Subli** | A small tool for the game Wakfu: find which sublimations fit a piece of gear. | [source](https://github.com/Antoine-DOT/subli) |
 
 ## How I work
