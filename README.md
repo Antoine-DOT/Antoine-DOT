@@ -25,9 +25,9 @@ so that "it's fixed" always gets verified.
 | Project | What it is | |
 | --- | --- | --- |
 | **Malun** | Mandarin learning app (flashcards, TOCFL and HSK levels). Django, self-hosted in ATL-Lab, with SSO through Keycloak. The code is private. | [app](https://mandarin.antoineleflon.com) · [showcase](https://github.com/Antoine-DOT/malun) |
-| **antoineleflon.com** | My personal site. Static React, deployed to the lab through a restricted SSH account. | [source](https://github.com/Antoine-DOT/antoineleflon.com) |
 | **atl-preview-controller** | The lab's private staging platform: isolated Docker Compose deployments, health-checked before any traffic moves, deployed through forced-command SSH accounts. Python, with tests. | [source](https://github.com/Antoine-DOT/atl-preview-controller) |
-| **Subli** | A small tool for the game Wakfu: find which sublimations fit a piece of gear. | [source](https://github.com/Antoine-DOT/subli) |
+| **second-brain** | The shared memory between me and my AI agents: an Obsidian vault with a strict schema, a dashboard script and session hooks. | [source](https://github.com/Antoine-DOT/second-brain) |
+| **antoineleflon.com** | My personal site. Static React, deployed to the lab through a restricted SSH account. | [source](https://github.com/Antoine-DOT/antoineleflon.com) |
 
 ## How I work
 
