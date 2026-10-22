@@ -24,7 +24,7 @@ so that "it's fixed" always gets verified.
 
 | Project | What it is | |
 | --- | --- | --- |
-| **Malun** | Mandarin learning app (flashcards, TOCFL levels). Django, self-hosted in ATL-Lab, with SSO through Keycloak. The code is private. | [mandarin.antoineleflon.com](https://mandarin.antoineleflon.com) |
+| **Malun** | Mandarin learning app (flashcards, TOCFL and HSK levels). Django, self-hosted in ATL-Lab, with SSO through Keycloak. The code is private. | [app](https://mandarin.antoineleflon.com) · [showcase](https://github.com/Antoine-DOT/malun) |
 | **antoineleflon.com** | My personal site. Static React, deployed to the lab through a restricted SSH account. | [source](https://github.com/Antoine-DOT/antoineleflon.com) |
 | **atl-preview-controller** | The lab's private staging platform: isolated Docker Compose deployments, health-checked before any traffic moves, deployed through forced-command SSH accounts. Python, with tests. | [source](https://github.com/Antoine-DOT/atl-preview-controller) |
 | **Subli** | A small tool for the game Wakfu: find which sublimations fit a piece of gear. | [source](https://github.com/Antoine-DOT/subli) |
@@ -37,6 +37,15 @@ projects, decisions, infrastructure, what is left to do. It is the shared memory
 between me and the tools I work with.
 
 → [The structure, scripts and hooks](https://github.com/Antoine-DOT/second-brain), without my own notes
+
+It replaced ATL Projects, an earlier attempt of mine: a small web app in the
+lab that kept tasks, ideas and decisions in versioned YAML, with scripts the
+agents called at each step. It was an interesting experiment, and its core
+rules survived (ideas are not actions, git and the live system come first),
+but it had turned into a Rube Goldberg machine: one more server to run, back
+up and firewall, and a view of technical work only. A plain Markdown vault
+that I and the agents read and write directly does the same job with far less
+machinery. The project is archived.
 
 ## Contact
 
