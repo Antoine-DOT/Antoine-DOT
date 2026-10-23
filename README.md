@@ -1,7 +1,7 @@
 # Antoine Leflon
 
 I work in cybersecurity: governance, risk and compliance (NIS2, ISO 27001),
-vulnerability management, and cyber and IT project management. I run ATL, my
+vulnerability management, and IT project management. I run ATL, my
 freelance practice, and from November 2026 I will be working remotely from Taiwan.
 
 Most of what I build runs in my own home lab. This page is a short tour.
