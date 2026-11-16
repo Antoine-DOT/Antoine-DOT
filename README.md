@@ -10,8 +10,8 @@ Most of what I build starts in my own home lab. This page is a short tour.
 
 **My iPhone app to learn Mandarin**, for learners preparing the TOCFL (Taiwan)
 and the HSK (mainland China), in traditional or simplified characters:
-spaced repetition, quizzes, topics and a daily goal. Version 1.0 was approved
-by Apple on 16 November 2026 and is coming to the App Store.
+spaced repetition, quizzes, topics and a daily goal. Version 1.0 is live
+on [the App Store](https://apps.apple.com/app/id6828634809) since 16 November 2026.
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Antoine-DOT/malun/main/docs/screenshots/1-home.jpg" width="24%" alt="Malun home: today's goal and progress">
