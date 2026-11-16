@@ -4,7 +4,28 @@ I work in cybersecurity: governance, risk and compliance (NIS2, ISO 27001),
 vulnerability management, and IT project management. I run ATL, my
 freelance practice, and from November 2026 I will be working remotely from Taiwan.
 
-Most of what I build runs in my own home lab. This page is a short tour.
+Most of what I build starts in my own home lab. This page is a short tour.
+
+## Malun
+
+**My iPhone app to learn Mandarin**, for learners preparing the TOCFL (Taiwan)
+and the HSK (mainland China), in traditional or simplified characters:
+spaced repetition, quizzes, topics and a daily goal. Version 1.0 was approved
+by Apple on 16 November 2026 and is coming to the App Store.
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Antoine-DOT/malun/main/docs/screenshots/1-home.jpg" width="24%" alt="Malun home: today's goal and progress">
+  <img src="https://raw.githubusercontent.com/Antoine-DOT/malun/main/docs/screenshots/2-card.jpg" width="24%" alt="Malun review: a flashcard">
+  <img src="https://raw.githubusercontent.com/Antoine-DOT/malun/main/docs/screenshots/4-quiz.jpg" width="24%" alt="Malun quiz">
+</p>
+
+I own the product, the design and the reviews; most of the code is written
+with Claude Code and Codex, and every release goes through the same gates:
+the exact commit tested in staging, a written approval, a checked backup.
+Django, PostgreSQL, Capacitor for iOS, Keycloak for sign-in.
+
+→ [malun.app](https://malun.app) · [showcase and architecture](https://github.com/Antoine-DOT/malun) ·
+[case study on my site](https://antoineleflon.com/en/projects/malun)
 
 ## ATL-Lab
 
@@ -24,7 +45,6 @@ so that "it's fixed" always gets verified.
 
 | Project | What it is | |
 | --- | --- | --- |
-| **Malun** | Mandarin learning app (flashcards, TOCFL and HSK levels). Django, built and tested in ATL-Lab, running on a rented EU VPS, with SSO through Keycloak. The code is private. iOS app approved by Apple, launching soon. | [app](https://malun.app) · [showcase](https://github.com/Antoine-DOT/malun) |
 | **atl-preview-controller** | The lab's private staging platform: isolated Docker Compose deployments, health-checked before any traffic moves, deployed through forced-command SSH accounts. Python, with tests. | [source](https://github.com/Antoine-DOT/atl-preview-controller) |
 | **second-brain** | The shared memory between me and my AI agents: an Obsidian vault with a strict schema, a dashboard script and session hooks. | [source](https://github.com/Antoine-DOT/second-brain) |
 | **antoineleflon.com** | My personal site. Static React, deployed to the lab through a restricted SSH account. | [source](https://github.com/Antoine-DOT/antoineleflon.com) |
